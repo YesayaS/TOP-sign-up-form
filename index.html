@@ -3,7 +3,62 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>TOP sign up form</title>
+    <link rel="stylesheet" href="src/style.css" />
   </head>
-  <body></body>
+  <body>
+    <div class="left-section">
+      <div class="logo-container">
+        <img src="/src/odin-lined.png" alt="odin-logo.jpg" />
+        <div>ODIN</div>
+      </div>
+      <div class="img-credit">
+        Photo by <u>Halie West</u> on <u>Unsplash</u>
+      </div>
+    </div>
+    <div class="right-section">
+      <div>
+        <div>Don't let your dreams be dreams</div>
+        <div>&nbsp</div>
+        <div>So, Just <s>DO IT!</s> Sign Up!</div>
+      </div>
+      <div class="signup-container"><div class=>Let's Sign Up!</div>
+      <div>
+        <form class="signup-form" action="submit" method="post">
+          <div>
+            <div class="form-container">
+              <label for="first_name">First Name</label>
+              <input type="text" id="first_name" />
+            </div>
+            <div class="form-container">
+              <label for="email">Email</label><input type="text" id="email" />
+            </div>
+            <div class="form-container">
+              <label for="password">Password</label
+              ><input type="text" id="password" />
+            </div>
+          </div>
+          <div>
+            <div class="form-container">
+              <label for="last_name">Last Name</label
+              ><input type="text" id="last_name" />
+            </div>
+            <div class="form-container">
+              <label for="phone-number">Phone Number</label
+              ><input type="text" id="phone-number" />
+            </div>
+            <div class="form-container">
+              <label for="confim-password">Confirm Password</label
+              ><input type="text" id="confim-password" />
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="button-section">
+      <div><button>Create Account</button></div>
+      <div>Already have an account? <a href="">Log in</a></div>
+    </div>
+    <script src="src/script.js"></script>
+  </body>
 </html>

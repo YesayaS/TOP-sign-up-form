@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+
+@font-face {
+  font-family: norse-bold;
+  src: url(Norse-Bold.otf);
+}
+
+* {
+  border: 0px solid red;
+}
+
+:root {
+  font-family: "Rubik", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  font-size: 1rem;
+}
+
+input {
+  font-size: 1rem;
+  height: 2rem;
+  width: 15rem;
+  border: 1px solid #E5E7EB;
+  border-radius: 4px;
+  margin: 2px;
+  padding: 0px 10px;
+}
+
+input:focus{
+  outline-color:royalblue;
+}
+
+input:invalid{
+  outline-color: red;
+}
+
+.left-section {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  width: 35%;
+  min-width: 350px;
+  background-image: url("/src/bg-image.jpg");
+  background-size: cover;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  position: absolute;
+  top: 25%;
+  width: 100%;
+  padding: 10px 0;
+  background-color: rgba(0, 0, 0, 50%);
+}
+
+.logo-container > img {
+  height: min(100px);
+  aspect-ratio: calc(380 / 508);
+}
+
+.logo-container > div {
+  color: white;
+  font-family: norse-bold;
+  font-size: 3rem;
+}
+
+.img-credit {
+  position: absolute;
+  text-align: center;
+  color: white;
+  font-size: 0.8rem;
+  font-weight: lighter;
+  bottom: 1%;
+}
+
+.right-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5%;
+  width: 100%;
+  min-width: 700px;
+  background-color: azure;
+}
+
+.right-section > div {
+  padding-left: 40px;
+}
+
+.signup-container {
+  padding: 15px 0px;
+  background-color: white;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 20%);
+}
+
+.signup-container > div:first-child {
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.signup-form {
+  display: flex;
+  gap: 10%;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 15px;
+}
+
+button{
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 15px 70px;
+  border-radius: 10px;
+  color:  white;
+  background-color: #596D48;
+}
+
+button:hover{
+  cursor: pointer;
+}
+
+button:active{
+  scale: 0.95;
+}
+
+.button-section > div:first-child{
+  margin-bottom: 15px;
+}
+
+.button-section > div> a{
+  color: #596D48;
+  text-decoration: none;
+}
