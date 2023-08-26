@@ -52,7 +52,7 @@ input:focus{
   align-items: center;
   width: 35%;
   min-width: 350px;
-  background-image: url("/src/bg-image.jpg");
+  background-image: url("bg-image.jpg");
   background-size: cover;
 }
 
