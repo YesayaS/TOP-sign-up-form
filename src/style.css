@@ -148,10 +148,6 @@ button:active{
   scale: 0.95;
 }
 
-.button-section > div:first-child{
-  
-}
-
 .button-section > div> a{
   color: #596D48;
   text-decoration: none;
