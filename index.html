@@ -24,40 +24,86 @@
       </div>
       <div class="signup-container"><div class=>Let's Sign Up!</div>
       <div>
-        <form class="signup-form" action="submit" method="post">
+        <form
+          id="signup_form"
+          class="signup-form"
+          onsubmit="return false;"
+          method="post"
+        >
           <div>
             <div class="form-container">
               <label for="first_name">First Name</label>
-              <input type="text" id="first_name" />
+              <input
+                type="text"
+                id="first_name"
+                name="first_name"
+                placeholder="John"
+                autocomplete="off"
+              />
             </div>
             <div class="form-container">
-              <label for="email">Email</label><input type="text" id="email" />
+              <label for="email">Email</label
+              ><input
+                type="text"
+                id="email"
+                name="email"
+                placeholder="someone@mail.com"
+                autocomplete="off"
+              />
             </div>
             <div class="form-container">
               <label for="password">Password</label
-              ><input type="text" id="password" />
+              ><input
+                type="password"
+                id="password"
+                name="password"
+                placeholder="Password"
+                autocomplete="off"
+              />
             </div>
           </div>
           <div>
             <div class="form-container">
               <label for="last_name">Last Name</label
-              ><input type="text" id="last_name" />
+              ><input
+                type="text"
+                id="last_name"
+                name="last_name"
+                placeholder="Doe"
+                autocomplete="off"
+              />
             </div>
             <div class="form-container">
-              <label for="phone-number">Phone Number</label
-              ><input type="text" id="phone-number" />
+              <label for="phone_number">Phone Number</label
+              ><input
+                type="text"
+                id="phone_number"
+                name="phone_number"
+                placeholder="1234567890"
+                autocomplete="off"
+              />
             </div>
             <div class="form-container">
-              <label for="confim-password">Confirm Password</label
-              ><input type="text" id="confim-password" />
+              <label for="confirm_password">Confirm Password</label
+              ><input
+                type="password"
+                id="confirm_password"
+                name="confirm_password"
+                placeholder="Confirm Password"
+                autocomplete="off"
+              />
             </div>
           </div>
         </form>
       </div>
     </div>
     <div class="button-section">
-      <div><button>Create Account</button></div>
-      <div>Already have an account? <a href="">Log in</a></div>
+      <div>
+        <button id="create_account" type="submit" form="signup_form">
+          Create Account
+        </button>
+      </div>
+      <div>Already have an account? <a href="#">Log in</a></div>
     </div>
     <script src="src/script.js"></script>
   </body>
