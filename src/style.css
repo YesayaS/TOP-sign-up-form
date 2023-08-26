@@ -36,10 +36,6 @@ input:focus{
   outline-color:royalblue;
 }
 
-input:invalid{
-  outline-color: red;
-}
-
 .error-input{
   border: 2px red solid;
 }
@@ -129,6 +125,12 @@ input:invalid{
   padding-bottom: 15px;
 }
 
+#valid-form{
+  font-size: 2rem;
+  margin-top: 15px;
+  color: #596D48;
+}
+
 button{
   font-size: 1rem;
   font-weight: 600;
@@ -147,10 +149,14 @@ button:active{
 }
 
 .button-section > div:first-child{
-  margin-bottom: 15px;
+  
 }
 
 .button-section > div> a{
   color: #596D48;
   text-decoration: none;
+}
+
+.login-redirect{
+  margin-top: 15px;
 }
